@@ -1,4 +1,4 @@
-Spatial Clonal Heterogeneity in Glioblastoma
+# Spatial Clonal Heterogeneity in Glioblastoma
 
 Glioblastoma (GBM) is the most common malignant primary brain tumor in adults characterized by an extensive intratumor heterogeneity. Intratumor heterogeneity is driven by somatic alterations. Tumor growth is carried out by distinct cell populations called clones and subclones, which differ in their evolutionary development through genetic mutations within their microenvironment.
 
