@@ -1,9 +1,5 @@
-# File: calling.smk
-# Author: Emrah Kacar
-# Email: kacar.emrah@gmail.com
 # Description:
-# Contains rules to call somatic variants
-# using GATK
+# Contains rules to call somatic variants using GATK
 
 
 rule mutect2:
