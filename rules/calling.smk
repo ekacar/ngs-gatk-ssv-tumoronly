@@ -1,5 +1,4 @@
-# Description:
-# Contains rules to call somatic variants using GATK
+# Description: Contains rules to call somatic variants using GATK
 
 
 rule mutect2:
