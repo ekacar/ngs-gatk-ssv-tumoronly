@@ -14,17 +14,17 @@ properties:
         type: string
         description: unique identifier for all reads sequenced in a certain lane (rg1 for FASTQ from lane 1)
     ubam:
-	type:string
-	description: filepath for individual ubam files
+        type: string
+        description: filepath for individual ubam files
     seqtype:
         type: string
         description: WES or WGS indicating whether data is whole exome or whole genome (targeted not supported)
-        
          
-    required:
-        - patient
-        - sample
-        - readgroup
-        - platform
-        - ubam
-        - seqtype
+required:
+    - patient
+    - sample
+    - readgroup
+    - platform
+    - ubam
+    - seqtype
+
