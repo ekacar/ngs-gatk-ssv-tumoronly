@@ -16,23 +16,15 @@ properties:
     ubam:
 	type:string
 	description: filepath for individual ubam files
-    fq1:
-        type: string
-        description: filepath for first FASTQ file
-    fq2:
-        type: string
-        description: filepath for second FASTQ file
     seqtype:
         type: string
         description: WES or WGS indicating whether data is whole exome or whole genome (targeted not supported)
- 
-
-required:
-    - patient
-    - sample
-    - readgroup
-    - platform
-    - ubam
-    - fq1
-    - fq2
-    - seqtype
+        
+         
+    required:
+        - patient
+        - sample
+        - readgroup
+        - platform
+        - ubam
+        - seqtype
