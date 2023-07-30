@@ -4,7 +4,7 @@ channels:
     - conda-forge
 dependencies:
     - python=3.9
-    - samtools=1.9
+    - samtools=1.12
     - bwa=0.7.17
     - gatk4=4.4.0.0
 

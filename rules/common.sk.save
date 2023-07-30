@@ -1,10 +1,12 @@
+# File: common.smk
+# Author: Emrah Kacar
+# Email: kacar.emrah@gmail.com
 # Description:
 # Initialization file that loads config information and stores functions to aide with wildcard creation
 
 import sys
 import os
-from pathlib import Path
-import pandas as pd
+from pathlib import Pathimport pandas as pd
 from snakemake.utils import validate
 from snakemake.utils import min_version
 
