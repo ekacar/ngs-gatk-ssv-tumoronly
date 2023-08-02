@@ -44,6 +44,12 @@ use_pon: true
 # Filepath for PON. To create a new PON from all the normal samples, specify as None
 pon_vcf: /data/Unit_LMM/selberherr-group/kacar/ngs-gatk-ssv-tumoronly/refdata/panel_of_normals/1000g_pon.hg38.vcf.gz
 
+# Apply additional thresholds to filter variants
+# When set to true, requires each SNV has a minimum of
+# 15 reads covering the position and at least 5 reads
+# with the mutant allele.
+# When false, only use FilterMutectCalls criteria
+stringent_filtering: false
 
 # Annotation data sources
 # Directory with VEP annotation data

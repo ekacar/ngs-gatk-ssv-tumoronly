@@ -3,5 +3,4 @@ channels:
      - bioconda
      - conda-forge
 dependencies:
-    - ensembl-vep=110.1
-    - vcf2maf=1.6.21
+     - ensembl-vep=110.1
