@@ -1,8 +1,11 @@
 name: qc
 channels:
+    - anaconda
     - bioconda
     - conda-forge
 dependencies:
-    - fastqc
-    - multiqc
-    - mosdepth
+    - fastqc=0.12.1
+    - multiqc=1.14
+    - mosdepth=0.3.3
+ 
+
