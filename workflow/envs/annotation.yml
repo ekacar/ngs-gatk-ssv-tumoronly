@@ -1,6 +1,6 @@
 name: annotation
 channels:
      - bioconda
-     - conda-forge
 dependencies:
      - ensembl-vep=110.1
+     - vcf2maf

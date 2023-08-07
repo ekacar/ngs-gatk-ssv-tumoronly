@@ -1,0 +1,3 @@
+SyntaxError in file /data/Unit_LMM/selberherr-group/kacar/ngs-gatk-ssv-tumoronly/workflow/rules/preprocessing.smk, line 13:
+Expecting rule keyword, comment or docstrings inside a rule definition. (preprocessing.smk, line 13)
+  File "/data/Unit_LMM/selberherr-group/kacar/ngs-gatk-ssv-tumoronly/workflow/Snakefile", line 12, in <module>

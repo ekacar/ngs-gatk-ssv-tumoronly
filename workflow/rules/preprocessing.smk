@@ -6,17 +6,13 @@
 
 rule bwa_index:
     input:
-        "data/Homo_sapiens_assembly38.fasta",
+        "../resources/Homo_sapiens_assembly38.fasta"
     output:
-        multiext("data/Homo_sapiens_assembly38.fasta", ".amb", ".ann", ".bwt", ".pac", ".sa"),
-    singularity:
-        gatk_env, 
-    log:
-        "logs/bwa_index.log",
+        multiext("../resources/Homo_sapiens_assembly38.fasta", ".amb", ".ann", ".bwt", ".pac", ".sa")
+    conda:
+	"envs/alignment.yaml" 
     shell:
-        """
-        bwa index {input}
-        """
+        "bwa index {input}"
 
 rule bwa:
     input:
